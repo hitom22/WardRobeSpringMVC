@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Noto+Sans+KR:wght@300&display=swap');
+
+#header .header-inner {
+    width: 100%;
+    height: 100%;
+}
+
+#header .header-inner > div.top {
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#header .header-inner > div > .logo > .logo__inner > img {
+    width: 100%;
+    height : 100%;
+    justify-content: center;
+}
+
+#header .header-inner > div > .list > .list__item > a {
+    display: block;
+    padding-top: 8px;
+    padding-right: 21px;
+    padding-bottom: 8px;
+    padding-left: 21px;
+    position: relative;
+}
+
+#header .header-inner > .bottom {
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+}
+
+#header .header-inner > div > .list {
+    display: flex;
+    align-items: flex-end;
+}
+
+#header .header-inner > div > .list.right {
+    align-items: flex-end;
+}
+
+/* .right {
+    text-align: right;
+} */
+
+#header {
+    color: #414141;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+#header a {
+    color : #414141;
+}
+
+a {
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+#header * {
+    box-sizing: border-box;
+}
+
+#header {
+    font-family: "Noto Sans KR";
+    font-size: 13px;
+    line-height: 1.17;
+    letter-spacing: -0.24px;
+    height: 98px;
+    padding-left: 24px;
+    padding-right: 38px;
+    box-sizing: border-box;
+    position: sticky;
+    top: -1px;
+    z-index: 5000;
+}
+
+img {
+    max-width: 100%;
+    vertical-align : middle;
+    border: none;
+    outline: none;
+}
+
+.list__item:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}

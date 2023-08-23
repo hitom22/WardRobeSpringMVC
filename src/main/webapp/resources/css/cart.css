@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Noto+Sans+KR&family=Roboto&display=swap');
+
+body {
+    font-family: 'Noto Sans KR';
+    font-size: 20px;
+    line-height: calc(45 / 31);
+    text-align: center;
+    margin: 20px;
+  }
+
+  #empty {
+    font-size: 14px;
+    font-weight: lighter;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #cart-items {
+    margin-top: 20px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .cart-item img {
+    width: 80px;
+    margin-right: 10px;
+  }
+  
+  .cart-item .name {
+    font-weight: bold;
+  }
+  
+  #total-price {
+    font-size: 18px;
+    margin-top: 20px;
+    display : flex;
+    align-items : center;
+    justify-content: center;
+  }
+  
+  #checkout-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  

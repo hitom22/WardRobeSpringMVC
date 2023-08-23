@@ -1,0 +1,206 @@
+@charset "UTF-8";
+    @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Noto+Sans+KR&family=Roboto&display=swap');
+
+li {
+	width : 100%;
+	align-items: center;
+    justify-content: center;
+}
+
+h3 {
+	text-align : center;
+	align-items: center;
+    justify-content: center;
+}
+
+    /* #layout_wrap .jt-member-title {display: none!important;}
+
+/*#layout_wrap {padding-top:98px;}*/
+
+
+#layout_wrap > .title {margin-top: 47px;margin-bottom:38px;color:#111;}
+#layout_wrap > .title > h1 {font-size: 31px;font-family: 'Noto Sans KR';line-height: calc(45 / 31);text-align: center;font-weight: bold;}
+#layout_wrap > .title > .sub-title {margin-top: 20px;font-size:16px;line-height: calc(19/ 16);display:flex;justify-content: center;column-gap: 28px;font-family: Roboto;}
+#layout_wrap > .title > .sub-title > a {color: #6A696C;}
+#layout_wrap > .title > .sub-title > .active {color: #111;}
+
+#layout_wrap > div > .title {margin-top: 47px;margin-bottom:38px;color:#111;}
+#layout_wrap > div > .title > h1 {font-size: 31px;font-family: 'Noto Sans KR';line-height: calc(45 / 31);text-align: center;font-weight: bold;}
+#layout_wrap > div > .title > .sub-title {margin-top: 20px;font-size:16px;line-height: calc(19/ 16);display:flex;justify-content: center;column-gap: 28px;font-family: Roboto;}
+#layout_wrap > div > .title > .sub-title > a {color: #999999;}
+#layout_wrap > div > .title > .sub-title > .active {font-weight: bold;color:#111111;}
+@media all and (max-width: 1023px) {
+    /*body */
+    /*#layout_wrap {padding-top: 23.73rem;}*/
+
+    #layout_wrap > .title {margin-top: 9.33rem;margin-bottom: 8.26rem;}
+    #layout_wrap > .title > h1 {margin-top:2.66rem;font-size:5.86rem;line-height: calc(32/22);}
+    #layout_wrap > .title > .sub-title {margin-top:2.66rem;font-size:3.2rem;line-height: calc(14/12);}
+
+    #layout_wrap > div > .title {margin-top: 9.33rem;margin-bottom: 8.26rem;}
+    #layout_wrap > div > .title > h1 {margin-top:2.66rem;font-size:5.86rem;line-height: calc(32/22);}
+    #layout_wrap > div > .title > .sub-title {margin-top:2.66rem;font-size:3.2rem;line-height: calc(14/12);}
+}
+
+    .login_real_area {width: 16.406rem;margin-left:auto;margin-right:auto;}
+    .login-checkbox-wrapper {display:flex;column-gap: 1.4573rem;margin-top:.625rem;margin-bottom:1.3541rem;}
+    .jt-member-title {margin-top:104px;margin-bottom:58px;}
+
+    #member-login.resp_account_wrap .login_real_area .find_join {margin-top:1.71875rem!important;}
+    #member-login.resp_account_wrap .login_real_area .find_join > a {font-family: "Noto Sans KR"; font-size: .625rem;color: #424242;text-decoration: underline;  font-weight: normal;}
+
+    .guest-order-detail {margin-top: .4166rem;font-family: "Noto Sans KR"; font-size: .625rem;color: #424242;text-decoration: underline;  font-weight: normal;}
+    .guest-order-detail:hover {text-decoration: underline;} */
+
+    .container {
+    display: flex;
+    align-items: flex-start;
+    }
+    .left-column {
+    flex: 1;
+    }
+    .right-column {
+    flex: 1;
+    }
+    
+    h1 {
+    text-align: center;
+    }
+
+    #image10 {
+                width : 40%;
+            }
+
+    .c-btn-group .c-btn {
+    width: 100%;
+    height: 2.6041rem;
+    font-family: "Noto Sans KR";
+    font-size: .677rem;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    font-weight: 500;
+    border-radius: unset;
+    box-sizing: border-box;
+    }
+
+    .c-btn-white {
+    color: #000 !important;
+    background-color: #fff !important;
+    border-color: #424242 !important;
+    }
+
+    .c-btn-black {
+    color: #fff !important;
+    background-color: #000!important;
+    }
+
+    .jt-input-group input.jt-input, .jt-input-group input.jt-input-not-valid {
+    width: 100%;
+    padding: 0.625rem 0 0.625rem 0.5208rem;
+    border-bottom: 1px solid #424242;
+    color: #000;
+    font-size: .697rem;
+    line-height: normal;
+    font-family: "Noto Sans KR";
+    box-sizing: border-box;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: unset;
+    border-radius: unset;
+    font-weight: normal;
+    letter-spacing: normal!important;
+    text-align: left;
+    }
+
+    .jt-checkbox-group .jt-checkbox-v1 > span {
+    color: #424242;
+    font-size: .695rem;
+    }
+
+    .jt-checkbox-group .jt-checkbox-v1 > input:checked ~ i {
+    background-color: #424242;
+    }
+    
+    #member-login.resp_account_wrap .login_real_area .find_join > a:last-child {
+    text-align: left;
+    }
+
+    #member-login.resp_account_wrap .login_real_area .find_join > a:first-child {
+    text-align: right;
+    }
+
+    fieldset {
+    border-color: white;
+    }
+
+    @media all and (min-width:1025px) {
+        
+            .visual_title {
+                margin-top: 50px;
+            }
+
+            .layout-publish {
+                max-width: 1000px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .layout-publish div {
+                font-family: Noto Sans CJK KR Thin;
+                font-size: 12px;
+                color: #111;
+            }
+
+            .content {
+                margin-top: 50px;
+            }
+
+            br {
+                display: block;
+                margin-top: 25px;
+            }
+
+            .visual_title .title_inner_a h2 {
+                margin-top: 50px;
+                font-size: 14px;
+                font-family: Noto Sans CJK KR;
+            }
+        }
+
+        @media not all and (min-width:1025px) {
+            .visual_title .title_inner_a h2 {
+                margin-top: 5.33rem;
+                font-size: 3.73rem;
+                font-family: Noto Sans CJK KR;
+            }
+
+            .visual_title {
+                margin-top: 5.33rem;
+            }
+
+            .layout-publish {
+                padding-left: 5.33rem;
+                padding-right: 5.33rem;
+            }
+
+            .layout-publish div {
+                font-family: Noto Sans CJK KR Thin;
+                font-size: 3.2rem;
+                color: #111;
+            }
+
+            .content {
+                margin-top: 5.33rem;
+            }
+
+            br {
+                display: block;
+                margin-top: 2.66rem;
+            }
+            
+        }
+       

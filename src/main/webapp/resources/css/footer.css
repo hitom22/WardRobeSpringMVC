@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Noto+Sans+KR&family=Roboto&display=swap');
+
+#footer {
+    padding : 25px 44px 30px;
+}
+
+footer {
+    display: block;
+    margin: 0;
+}
+
+#footer > .wrap-footer {
+    width: 100%;
+}
+
+#footer * {
+    box-sizing: border-box;
+}
+
+#footer a {
+    color: #414141;
+}
+
+a {
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+#footer > .wrap-footer > .nav {
+    display: flex;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 1.08;
+    letter-spacing: -0.48px;
+    color: #414141;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+#footer > .wrap-footer > .nav > .nav__item {
+    padding-bottom: 8px;
+    padding-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer > .wrap-footer > .nav > .nav__item + .nav__item:not(.social) {
+    margin-left: 47px;
+}
+
+#footer > .wrap-footer > .nav > .nav__item.social {
+    margin-left: auto;
+    display: flex;
+    column-gap: 10px;
+    width: 160px;
+}
+
+#footer > .wrap-footer > .content {
+    display: flex;
+    font-family: "Noto Sans KR";
+    font-size: 13px;
+    line-height: 1.15;
+    letter-spacing: -0.26px;
+    color: #414141;
+    padding-top: 29px;
+    padding-bottom: 29px;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+#footer > .wrap-footer > .content > div + div {
+    margin-left: 168px;
+}
+
+#footer > .wrap-footer > .content > div > .info-list {
+    display: flex;
+    column-gap: 30px;
+}
+
+ul, li{
+    list-style: none;
+    /* margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px; */
+}
+
+li {
+    display: list-item;
+}
+
+#footer > .wrap-footer > .content > div > .info-list > .info-list__item > .content.bold {
+    font-weight: 700;
+}
+
+#footer > .wrap-footer > .content > div > .info-list > .info-list__item > .label:after {
+    content: ":";
+}
+
+#footer > .wrap-footer > .cap {
+    padding-top: 9px;
+    display: flex;
+    font-family: "Noto Sans KR";
+}
+
+#footer > .wrap-footer > .cap > span {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.36;
+    color: #6a6a6a;
+}
+
+#footer > .wrap-footer > .cap > .escrow {
+    display: flex;
+    align-items: center;
+}
+
+#footer > .wrap-footer > .cap > .escrow > img {
+    width: 80px;
+    height: 40px;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    border: none;
+    outline: none;
+}
+
+#footer > .wrap-footer > .cap > .escrow > p {
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: -0.24px;
+    text-align: left;
+    color: #6a6a6a;
+}
+
+p {
+    display: block;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+#middle {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.nav__item:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}

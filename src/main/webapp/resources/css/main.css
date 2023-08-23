@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Noto+Sans+KR&family=Roboto&display=swap');
+
+main {
+  font-family: 'Noto Sans KR';
+  font-size: 15px;
+  line-height: 1.15;
+  letter-spacing: -0.26px;
+  color: #414141;
+}
+
+.middle-section {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.ticket {
+  background-color: white;
+  padding: 100px;
+  border-radius: 10px;
+}
+
+.ticket-content {
+  text-align: center;
+}
+
+.ticket img {
+  max-width: 100%;
+}
+
+.hero_header{
+  height: 50%;
+  width: 100%;
+}
+
+body h1{
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 24px;
+  font-style: bold;
+  color: #545454;
+}
+
+.products {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  width: 740px;
+  text-align: center;
+}
+
+.products img{
+  width: 225px;
+  height: 225px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.products a{
+  text-decoration: none;
+  color: black;
+  float: left;
+  font-size: 16px;
+}
+
+.price{
+  margin-top: 4px;
+  margin-bottom: 80px;
+}
+
+.clearfix{
+  clear: both;
+}

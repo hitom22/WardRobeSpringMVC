@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="MemberMapper">
+	<resultMap type="Member" id="memberResultMap">
+		<id 	property="userId" 		column="MB_USERID" />
+		<result property="password" 	column="MB_PASSWORD" />
+		<result property="choice1" 		column="MB_CHOICE1" />
+		<result property="tel" 			column="MB_TEL" />
+		<result property="userName" 	column="MB_NAME" />
+		<result property="email" 		column="MB_EMAIL" />
+		<result property="choice2" 		column="MB_CHOICE2" />
+		<result property="gender" 		column="MB_GENDER" />
+		<result property="height" 		column="MB_HEIGHT" />
+		<result property="weight" 		column="MB_WEIGHT" />
+		<result property="footSize" 	column="MB_FOOTSIZE" />
+		<result property="memberDate" 	column="MB_DATE" />
+		<result property="updateDate" 	column="UPDATE_DATE" />
+		<result property="memberYn" 	column="MB_YN" />
+	</resultMap>
+
+	<insert id="insertMember">
+ 		INSERT INTO MB_TBL VALUES(#{userId },#{password },#{choice1 },#{tel },#{userName },#{email },#{choice2 },#{gender },#{height },#{weight },#{footSize },DEFAULT,DEFAULT,DEFAULT)
+	</insert>
+	
+	<update id="updateMember">
+		UPDATE MB_TBL SET MB_PASSWORD=#{password }, MB_CHOICE1=#{choice1 }, MB_TEL=#{tel }, MB_EMAIL=#{email }, MB_CHOICE2=#{choice2 }, MB_GENDER=#{gender }, MB_HEIGHT=#{height }, MB_WEIGHT=#{weight }, MB_FOOTSIZE=#{footSize } WHERE MB_USERID=#{userId }
+	</update>
+	
+	<delete id="deleteMember">
+		DELETE FROM MB_TBL WHERE MB_USERID = #{userId }
+	</delete>
+	
+	<select id="checkMemberLogin" resultMap="memberResultMap">
+		SELECT * FROM MB_TBL WHERE MB_USERID = #{userId } AND MB_PASSWORD = #{password }
+	</select>
+	
+	<select id="getMemberById" resultMap="memberResultMap">
+		SELECT * FROM MB_TBL WHERE MB_USERID = #{userId }
+	</select>
+	
+</mapper>
+

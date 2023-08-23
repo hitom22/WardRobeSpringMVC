@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-config.dtd">
+  <configuration>
+	<typeAliases>
+			<typeAlias type="kr.co.openthewardrobe.member.domain.Member" alias="Member" />
+<!-- 			<typeAlias type="kr.co.openthewardrobe.notice.domain.Notice" alias="Notice" /> -->
+	</typeAliases>
+	<mappers>
+		<mapper resource="mappers/member/member-mapper.xml"></mapper>
+<!-- 		<mapper resource="mappers/notice-mapper.xml"></mapper> -->
+	</mappers>
+</configuration>
